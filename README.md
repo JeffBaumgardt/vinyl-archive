@@ -30,13 +30,13 @@ Each browser tab gets its own session and a fresh seed catalog. Closing the tab 
 
 ## API
 
-| Method | Path | Description |
-|--------|------|-------------|
-| `GET` | `/api/vinyls` | List records |
-| `POST` | `/api/vinyls` | Create record |
-| `GET` | `/api/vinyls/[id]` | Get one |
-| `PUT` | `/api/vinyls/[id]` | Update |
-| `DELETE` | `/api/vinyls/[id]` | Delete |
+| Method   | Path               | Description   |
+| -------- | ------------------ | ------------- |
+| `GET`    | `/api/vinyls`      | List records  |
+| `POST`   | `/api/vinyls`      | Create record |
+| `GET`    | `/api/vinyls/[id]` | Get one       |
+| `PUT`    | `/api/vinyls/[id]` | Update        |
+| `DELETE` | `/api/vinyls/[id]` | Delete        |
 
 All requests require header `x-session-id`.
 
